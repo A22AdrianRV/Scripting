@@ -13,9 +13,6 @@ function menu(){
 	read -p "Prema una tecla: " NUM
 }
 
-function tecla(){
-	read -p "Prema unha tecla: " NUM
-}
 function programa(){
 	case $NUM in
 	1) read -p "Introduce dos números: " num1
